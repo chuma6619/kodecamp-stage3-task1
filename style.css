@@ -846,13 +846,13 @@ body{
     }
 
     .section-2-container{
-        background-size:90vh 180vw;
+        background-size:75vh 190vw;
         margin-top: 0px;
     }
 
     .section-2-items{
-        padding-top: 400px;
-        padding-left: 60px;
+        padding-top: 500px;
+        padding-left: 50px;
     }
 
     .section-2-text-1 {

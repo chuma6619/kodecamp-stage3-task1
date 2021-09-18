@@ -846,12 +846,12 @@ body{
     }
 
     .section-2-container{
-        background-size:75vh 190vw;
+        background-size:70vh 200vw;
         margin-top: 0px;
     }
 
     .section-2-items{
-        padding-top: 500px;
+        padding-top: 400px;
         padding-left: 50px;
     }
 
@@ -870,7 +870,7 @@ body{
     }
 
     .hr-line{
-        width: 80%;
+        width: 85%;
     }
 
     .section-5-column-1-img{

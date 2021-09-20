@@ -1015,11 +1015,36 @@ body{
 
 }
 
-@media (max-width: 360px){
+@media (max-width: 375px){
     .section-2-container{
-        background-size:85vh 155vw;
+        background-size:58vh 230vw;
         position: relative;
-        bottom: 70px;
+        bottom: 95px;
+    }
+
+    .section-2-items{
+        padding-top: 680px;
+        padding-left: 50px;
+    }
+
+    .section-3-heading-1{
+        padding-top: 7rem;
+    }
+
+    .section-5{
+        height: 130vh;
+    }
+
+    .section-5-column-1-img{
+        background-size: 330px;
+        position: relative;
+        bottom: 160px
+    }
+
+    .section-5-column-2{
+        position: relative;
+        bottom: 200px;
+
     }
 
 

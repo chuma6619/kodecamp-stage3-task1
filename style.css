@@ -831,7 +831,7 @@ body{
     }
 
     .section-2{
-        height: 110vh;
+        height: 100vh;
         width: 100%;
     }
 
@@ -851,6 +851,12 @@ body{
         letter-spacing: 2px;
         font-weight: 300;
         text-transform: uppercase;
+    }
+
+    .section-5-column-2{
+        position: relative;
+        bottom: 15px;
+
     }
     
     .section-2-text-2{
@@ -921,7 +927,54 @@ body{
 
 }
 
-@media (max-width: 400px){
+@media (max-width: 455px){
+
+    .section-2-container{
+        background-size:90vh 135vw;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .hr-line{
+        width: 80%;
+    }
+
+}
+
+
+@media (max-width: 435px){
+
+    .section-2-container{
+        background-size:90vh 135vw;
+        position: relative;
+        bottom: 60px;
+    }
+
+    .hr-line{
+        width: 85%;
+    }
+
+}
+
+@media (max-width: 425px){
+
+    .section-2-container{
+        background-size:90vh 135vw;
+        position: relative;
+        bottom: 70px;
+    }
+
+    .hr-line{
+        width: 90%;
+    }
+    .section-3-heading-1{
+        padding-top: 3.8rem;
+    }
+
+}
+
+
+@media (max-width: 410px){
     .section-2{
         height: 100vh;
         width: 100%;
@@ -1050,11 +1103,36 @@ body{
 
 }
 
-@media (max-width: 330px){
+@media (max-width: 370px){
     .section-2-container{
         background-size:80vh 165vw;
         position: relative;
-        bottom: 80px;
+        bottom: 50px;
+    }
+
+    .section-2-items{
+        padding-top: 480px;
+        padding-left: 50px;
+    }
+
+    .section-3-heading-1{
+        padding-top: 7rem;
+    }
+
+    .section-5{
+        height: 182vh;
+    }
+
+    .section-5-column-1-img{
+        background-size: 330px;
+        position: relative;
+        bottom: 50px
+    }
+
+    .section-5-column-2{
+        position: relative;
+        bottom: 0px;
+
     }
 
 
